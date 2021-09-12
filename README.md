@@ -4,6 +4,9 @@ A .NET 5.0 command line tool to reduce image colors, dither them, and size them 
 ## Project State
 It's rough and fresh out of my brain. Build and runs on Windows & macOS. I haven't tested it yet, but I intend to run this on a Raspberry Pi, but just haven't got to that point yet. There's probably plenty that doesn't work right, so feel free to open an issue or PR if you find something.
 
+## 💡 Inspiration
+For more about what inspired this, check out [this post](https://github.com/pimoroni/inky/issues/126) over on pimoroni/inky!
+
 ## Image Output Format
 Right now, images are output at PNGs. However, they're not being created as 8bpp indexed pngs. (There is code to generate the images in that format, but `System.Drawing.Bitmap` seems to always write them as 32 bit PNGs for now.
 
@@ -33,6 +36,12 @@ $ # Transform test.jpg using the Floyd-Steinberg dithering algorithm,
 $ # targeting the Inky pHat with the Black/White/Yellow display.
 $ dotnet Inkify.dll transform "test.jpg" -d PhatYellow -e FloydSteinbergDithering
 ```
+
+## 🌄 Screenshots
+Certainly not entirely representitive, but if you just want to take a peek at the kinds of images Inkify can spit out, here you go:
+
+![image](https://user-images.githubusercontent.com/602691/132973032-2a6bd37b-08bf-4baa-a01a-5d24d50dc9f6.png)
+![image](https://user-images.githubusercontent.com/602691/132973192-8266861d-87d2-4bb9-833d-f3792b39c777.png)
 
 ## 📝 License
 
