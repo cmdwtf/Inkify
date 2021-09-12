@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Inkify": {
+      "commandName": "Project",
+      "commandLineArgs": "transform \"%USERPROFILE%\\Desktop\\test\\test.jpg\" -e All -s 0.1"
+    }
+  }
+}
