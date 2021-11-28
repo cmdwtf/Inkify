@@ -45,18 +45,17 @@ Certainly not entirely representitive, but if you just want to take a peek at th
 
 ## 📝 License
 
-Inkify is licensed under the AGPL 3.0 (SPDX-License-Identifier: AGPL-3.0-only). If you're interested in Inkify under other terms, please contact the authors. Inkify makes use of several open source packages. Those packages are each covered by their own copyrights and licenses, which are available via the tooling you use to restore the packages when building.
+Inkify is licensed under the Zero-Clause BSD License (SPDX-License-Identifier: 0BSD). If you're interested in Inkify under other terms, please contact the authors. Inkify makes use of several open source packages. Those packages are each covered by their own copyrights and licenses, which are available via the tooling you use to restore the packages when building.
 
 Copyright © 2021 [Chris March Dailey](https://cmd.wtf)
-This program is free software: you can redistribute it and/or modify it under the terms of the GNU Affero General Public License as published by the Free Software Foundation, version 3.
 
-This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU Affero General Public License for more details.
+Permission to use, copy, modify, and/or distribute this software for any purpose with or without fee is hereby granted.
 
-You should have received a copy of the GNU Affero General Public License along with this program. If not, see <https://www.gnu.org/licenses/>
+THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 
 ### Licensed Software
 
 Inkify makes uses of several licensed portions of code, each licensed under their own terms by their authors. In particular, some of those software licenses require the following notices.
 
- - The nuget package `cmdwtf.Dithering` is licensed under the MIT license from [cmdwtf/Dithering](https://github.com/cmdwtf/Dithering/blob/main/LICENSE). It is based on work by Cyotek Ltd.
+ - The nuget package `cmdwtf.Dithering` is licensed under 0BSD from [cmdwtf/Dithering](https://github.com/cmdwtf/Dithering/blob/main/LICENSE). It is based on work by Cyotek Ltd.
  
